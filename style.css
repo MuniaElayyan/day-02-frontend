@@ -513,3 +513,41 @@ cursor:pointer;
 button:hover{
 background:#c98291;
 }
+
+footer{
+margin-top:60px;
+padding:30px;
+text-align:center;
+background:linear-gradient(90deg,var(--beige),var(--light-pink));
+border-top:2px solid var(--pink);
+box-shadow:0 -5px 15px rgba(122,92,88,.08);
+}
+
+footer p{
+color:var(--brown);
+font-weight:bold;
+font-size:17px;
+letter-spacing:1px;
+}
+
+footer nav{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:25px;
+margin-top:15px;
+}
+
+footer a{
+color:var(--brown);
+text-decoration:none;
+font-family:Georgia,serif;
+font-weight:bold;
+padding:8px 15px;
+border-radius:20px;
+}
+
+footer a:hover{
+background:var(--white);
+color:#c98291;
+}
