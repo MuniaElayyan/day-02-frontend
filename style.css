@@ -966,26 +966,13 @@ html,body {
     overflow-x: hidden;
 }
 
-
-
-
-
-
-
-/* =========================
-   Mobile Responsive Design
-========================= */
 @media (max-width: 767px) {
-
-    /* منع أي عنصر من تجاوز عرض الشاشة */
-    html,
-    body {
+html,body {
         width: 100%;
         max-width: 100%;
         overflow-x: hidden;
     }
 
-    /* Header */
     header {
         width: 100%;
         padding: 1rem;
@@ -1004,7 +991,6 @@ html,body {
         text-align: center;
     }
 
-    /* Home */
     #home {
         width: 100%;
         flex-direction: column;
@@ -1032,14 +1018,7 @@ html,body {
         font-size: 1rem;
     }
 
-    /* About + Other Sections */
-    #about,
-    #skills,
-    #information,
-    #media,
-    .code-section,
-    #contact,
-    aside {
+    #about,#skills,#information,#media,.code-section,#contact,aside {
         width: calc(100% - 2rem);
         max-width: none;
         margin-left: 1rem;
@@ -1047,16 +1026,13 @@ html,body {
         padding: 1.3rem;
     }
 
-    /* Projects */
     #projects {
         width: 100%;
-        max-width: none;
-        margin: 2rem 0;
+     max-width: none;
+    margin: 2rem 0;
         padding: 1rem;
-        
-        /* مهم جدًا: كرت واحد في كل صف */
-        display: grid;
-        grid-template-columns: 1fr;
+      display: grid;
+    grid-template-columns: 1fr;
         gap: 1.2rem;
     }
 
@@ -1082,11 +1058,10 @@ html,body {
         line-height: 1.7;
     }
 
-    /* Table */
     #projects table {
         width: 100%;
-        max-width: 100%;
-        font-size: 0.8rem;
+    max-width: 100%;
+       font-size: 0.8rem;
         overflow: hidden;
     }
 
@@ -1095,7 +1070,6 @@ html,body {
         padding: 0.6rem 0.3rem;
     }
 
-    /* Skills */
     #skills ul {
         flex-direction: column;
         width: 100%;
@@ -1106,31 +1080,28 @@ html,body {
         text-align: center;
     }
 
-    progress {
+  progress {
         width: 100%;
     }
 
-    /* Media */
-    #media video,
-    #media audio {
+ #media video,
+ #media audio {
         width: 100%;
         max-width: 100%;
     }
 
-    /* Contact Form */
     #contact {
         width: calc(100% - 2rem);
     }
 
-    input[type="text"],
-    input[type="email"],
+input[type="text"],
+input[type="email"],
     input[type="tel"],
-    textarea,
+textarea,
     select {
         max-width: 100%;
     }
 
-    /* Footer */
     footer {
         width: 100%;
         padding: 1.5rem 1rem;
@@ -1140,9 +1111,7 @@ html,body {
         flex-direction: column;
         gap: 0.5rem;
     }
-
-    footer a {
-        width: 100%;
+footer a {
+width: 100%;
     }
 }
-
